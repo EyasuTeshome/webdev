@@ -7,9 +7,46 @@
 }
 
 .bphoto {
-    float: right;
-    width: auto;
-    margin-top: -535px;
-    margin-right: -660px;
-    height: 520px;
+    display: flex;
+    width: 50%;
+
+
+}
+.head{
+  background-color: gray;
+  height: 10%;
+  margin: 0px;
+}
+ul{
+  float: right;
+  margin-right: 5px;
+
+}
+li{
+  color: white;
+  display: inline;
+  list-style-type: none;
+  padding-right:  5px;
+
+  text-decoration: none;
+}
+h1{
+  color: black;
+ display: inline;
+ float: left;
+
+}
+@media only screen and (min-width: 600px) {
+  #h1::before{
+    content: "Apostolic Church of Ethiopia";
+
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  #h1::before{
+    content: "ACE";
+
+  }
+
 }
