@@ -1,0 +1,15 @@
+
+.bodytext {
+    padding: 15px;
+    width: 50%;
+    text-align:justify;
+    float:left;
+}
+
+.bphoto {
+    float: right;
+    width: auto;
+    margin-top: -535px;
+    margin-right: -660px;
+    height: 520px;
+}
