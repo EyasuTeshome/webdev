@@ -12,11 +12,13 @@
 
 
 }
+
 .head{
   background-color: gray;
   height: 10%;
   margin: 0px;
 }
+
 ul{
   float: right;
   margin-right: 5px;
