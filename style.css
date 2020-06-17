@@ -30,6 +30,7 @@
   margin: 0px;
 }
 
+
 ul{
   float: right;
   margin-right: 5px;
@@ -75,4 +76,34 @@ a{
 
   }
 
+  }
+
+.branphoto {
+  align-items: center;
+  width: 70%;
+  margin-left: 15%;
+}
+
+h1 {
+  text-align: center;
+}
+  table {
+          border: 2px solid black;
+          border-collapse: collapse;
+          width:50%;
+          margin-left:25%;
+      }
+
+  .branchestable h3{
+      text-align: center;
+  }
+
+  th, td {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: center;
+  }
+
+  th {
+      background-color:gray;
   }
