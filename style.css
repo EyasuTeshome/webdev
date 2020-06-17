@@ -113,8 +113,15 @@ h1 {
           margin-left:25%;
       }
 
-  .branchestable h3{
-      text-align: center;
+  .branchestable h1{
+      text-align: center
+  }
+
+  .branchestable {
+
+      margin-top: 5%;
+      margin-bottom: 10%;
+
   }
 
   th, td {
