@@ -126,3 +126,20 @@ h1 {
   th {
       background-color:gray;
   }
+
+.comment {
+    background-color: lightgray;
+    width: 50%;
+    height: 40%;
+    font-size: 25px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.button {
+    width: 20%;
+    height: 5%;
+    display: block;
+    margin-top: 1%;
+    margin-left: 16%;
+}
