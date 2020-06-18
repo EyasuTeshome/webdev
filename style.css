@@ -130,6 +130,9 @@ footer {
     .container-3 {
         margin-left: 0;
     }
+    #h1 {
+        margin-left: 40%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
