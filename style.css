@@ -1,7 +1,5 @@
 body,
-html {
-    height: 100%;
-}
+html {}
 
 body {
     margin: 0;
@@ -41,8 +39,52 @@ button {
     margin-right: 10%;
 }
 
-.upcome {
-    margin-bottom: 10%;
+.container-3 {
+    margin-top: 2%;
+    margin-left: 15%;
+    ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-container-3 {
+    height: 500px;
+    width: 500px;
+    background-image: url(4.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.text-container-3 {
+    width: 500px;
+    height: 500px;
+    margin: 2%;
+}
+
+.text-container-3 h1 {
+    color: brown;
+    border-bottom: 2px solid brown;
+    box-shadow: -10px 10px 10px rgb(73, 72, 72);
+}
+
+.img-container-3 h1 {
+    margin-top: 50%;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.button1 {
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-weight: bold;
 }
 
 header {
@@ -93,7 +135,6 @@ footer {
 @media only screen and (max-width: 600px) {
     ul {
         margin-left: 5%;
-       
     }
 }
 
