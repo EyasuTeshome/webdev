@@ -42,7 +42,7 @@ button {
 .container-3 {
     margin-top: 2%;
     margin-left: 15%;
-    ;
+    margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -128,7 +128,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
     .container-3 {
-        margin-left: 2%;
+        margin-left: 0;
     }
 }
 
