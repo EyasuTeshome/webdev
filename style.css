@@ -127,14 +127,14 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    #h1 {
-        text-align: center;
+    .container-3 {
+        margin-left: 2%;
     }
 }
 
 @media only screen and (max-width: 600px) {
     ul {
-        margin-left: 5%;
+        margin-left: auto;
     }
 }
 
