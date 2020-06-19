@@ -39,6 +39,80 @@ button {
     margin-right: 10%;
 }
 
+#container2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3%;
+}
+
+.leftcont2 {
+  width:46%;
+  margin-left: 3%;
+}
+
+.leftcont2photo {
+  background-image:url(img/wara.jpg);
+  background-size: cover;
+  height: 350px;
+  background-repeat:no-repeat;
+}
+
+.leftcont2photo h1 {
+  padding-top: 19%;
+  font-size: 50px;
+  color:white;
+}
+
+.leftcont2text {
+  text-align:justify;
+  color: blue;
+  margin-top: 4%;
+}
+
+.leftcont2text a {
+  color:red;
+}
+
+@media only screen and (max-width: 600px) {
+  .leftcont2{
+    width: 94%;
+  }
+  }
+
+.rightcont2 {
+  width: 46%;
+  margin-left: 3%;
+}
+
+.rightcont2photo {
+  background-image:url(img/Gofa.jpg);
+  background-size: cover;
+  height: 350px;
+  background-repeat:no-repeat;
+}
+
+.rightcont2photo h1 {
+  padding-top: 19%;
+  font-size: 50px;
+  color:white;
+}
+
+.rightcont2text {
+  text-align:justify;
+  color: blue;
+  margin-top: 4%;
+}
+
+.rightcont2text a {
+  color:red;
+}
+
+@media only screen and (max-width: 600px) {
+  .rightcont2{
+    width: 94%;
+  }
+  }
+
 .container-3 {
     margin-top: 2%;
     margin-left: 15%;
