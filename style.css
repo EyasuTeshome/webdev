@@ -39,6 +39,10 @@ button {
     margin-right: 10%;
 }
 
+.conference {
+  color: brown;
+}
+
 #container2 {
   display: flex;
   flex-wrap: wrap;

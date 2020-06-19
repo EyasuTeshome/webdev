@@ -1,0 +1,125 @@
+
+.bran-container-1 {
+    background-image: url(img/mainoffice.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: aliceblue;
+    align-items: center;
+}
+
+.bran-title-container-1 {
+    padding-top: 10%;
+
+    font-size: 40px;
+}
+
+.bran-para-container-1 {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.bran-para-container-1 a {
+  color:blueviolet;
+  text-decoration: underline;
+}
+
+header {
+    height: 10%;
+    margin: 0px;
+}
+
+ul {
+    margin-left: 40%;
+}
+
+li {
+    color: white;
+    display: inline;
+    font-weight: bold;
+    list-style-type: none;
+    padding-right: 8px;
+    text-decoration: none;
+}
+
+#h1 {
+    color: black;
+    display: inline;
+    margin-top: 2%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #h1 {
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        margin-left: auto;
+    }
+}
+
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.branches-table h1 {
+    text-align: center;
+    color:brown;
+}
+
+.branches-table {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+
+}
+
+th {
+    background-color: rgb(14, 115, 173);
+    font-size: 25px;
+    color:white;
+}
+
+.addis-ababa {
+  background-color: gray;
+  font-size: 18px;
+  color:blue;
+}
+
+.haddiya {
+  background-color: gray;
+  font-size: 18px;
+  color:blue;
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    margin: 0;
+    color: white;
+    background-color: rgb(6, 53, 122);
+    text-align: center;
+}
